@@ -1,3 +1,18 @@
+
+/*******************************************************************************************
+ *
+ * PROJECT          :       Practica 3 SSOO2
+ *
+ * PROGRAM NAME     :       User.cpp
+ *
+ * AUTHOR           :       Carlos y Pedro
+ *
+ * DATE CREATE      :       26/05/23
+ *
+ * PURPOSE          :       User class with constructors to initialize.
+ *
+ ********************************************************************************************/
+
 #include "User.h"
 
 User::User(int id, int balance, UserType type) {

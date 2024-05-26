@@ -1,4 +1,18 @@
 
+/*******************************************************************************************
+ *
+ * PROJECT          :       Practica 3 SSOO2
+ *
+ * PROGRAM NAME     :       utils.cpp
+ *
+ * AUTHOR           :       Carlos y Pedro
+ *
+ * DATE CREATE      :       26/05/23
+ *
+ * PURPOSE          :       Provide functions to create and get a user object in shared memory.
+ *
+ ********************************************************************************************/
+
 #include <mqueue.h>
 #include <cstdlib> // Include the necessary header file for the exit function
 #include <cstdio> // Include the necessary header file for the perror function

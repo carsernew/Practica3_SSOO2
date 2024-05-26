@@ -1,3 +1,18 @@
+
+/*******************************************************************************************
+ *
+ * PROJECT          :       Practica 3 SSOO2
+ *
+ * PROGRAM NAME     :       SistemaDePago.cpp
+ *
+ * AUTHOR           :       Carlos y Pedro
+ *
+ * DATE CREATE      :       26/05/23
+ *
+ * PURPOSE          :       Provide a method for obtaining a single instance and a method for processing payments.
+ *
+ ********************************************************************************************/
+
 #include "SistemaDePago.h"
 #include <thread>
 #include <chrono>

@@ -1,7 +1,21 @@
+
+/*******************************************************************************************
+ *
+ * PROJECT          :       Practica 3 SSOO2
+ *
+ * PROGRAM NAME     :       main.cpp
+ *
+ * AUTHOR           :       Carlos y Pedro
+ *
+ * DATE CREATE      :       26/05/23
+ *
+ * PURPOSE          :       Managing search and payment requests through the use of message queues, shared memory, and concurrent processes.
+ *
+ ********************************************************************************************/
+
 #include <iostream>
 #include <thread>
 #include <unistd.h>
-//#include "SistemaDePago.h"
 #include "Searcher.h"
 #include "utils.h"
 #include "User.h"
@@ -10,6 +24,7 @@
 #include <csignal> // Include the necessary header file for the signal function
 #include <mqueue.h> // Include the necessary header file for the mq_open function
 #include <fcntl.h> // Include the necessary header file for the O_CREAT flag
+
 // Include for shm functions
 #include <sys/mman.h>
 #include <sys/stat.h>

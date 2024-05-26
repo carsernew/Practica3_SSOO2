@@ -1,3 +1,19 @@
+
+/*******************************************************************************************
+ *
+ * PROJECT          :       Practica 3 SSOO2
+ *
+ * PROGRAM NAME     :       Searcher.cpp
+ *
+ * AUTHOR           :       Carlos y Pedro
+ *
+ * DATE CREATE      :       26/05/23
+ *
+ * PURPOSE          :       Management of incoming search requests and processing concurrently.
+ *
+ ********************************************************************************************/
+
+
 #include "Searcher.h"
 #include "definitions.h"
 #include <queue>
