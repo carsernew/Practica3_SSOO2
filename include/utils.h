@@ -3,7 +3,7 @@
  *
  * PROJECT          :       Practica 3 SSOO2
  *
- * PROGRAM NAME     :       User.h
+ * PROGRAM NAME     :       utils.h
  *
  * AUTHOR           :       Carlos y Pedro
  *
