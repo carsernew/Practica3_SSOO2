@@ -1,6 +1,20 @@
+
+/*******************************************************************************************
+ *
+ * PROJECT          :       Practica 3 SSOO2
+ *
+ * PROGRAM NAME     :       Search.h
+ *
+ * AUTHOR           :       Carlos y Pedro
+ *
+ * DATE CREATE      :       26/05/23
+ *
+ * PURPOSE          :       Definition of the Search class
+ *
+ ********************************************************************************************/
+
 #ifndef SEARCH_H
 #define SEARCH_H
-
 #include "definitions.h"
 #include <queue>
 #include <mutex>

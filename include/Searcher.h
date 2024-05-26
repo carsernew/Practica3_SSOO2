@@ -1,6 +1,20 @@
+
+/*******************************************************************************************
+ *
+ * PROJECT          :       Practica 3 SSOO2
+ *
+ * PROGRAM NAME     :       Searcher.h
+ *
+ * AUTHOR           :       Carlos y Pedro
+ *
+ * DATE CREATE      :       26/05/23
+ *
+ * PURPOSE          :       Implementation of a Searcher class
+ *
+ ********************************************************************************************/
+
 #ifndef SEARCHER_H
 #define SEARCHER_H
-
 #include "definitions.h"
 #include <queue>
 #include <mutex>

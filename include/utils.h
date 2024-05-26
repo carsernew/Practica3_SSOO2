@@ -1,3 +1,18 @@
+
+/*******************************************************************************************
+ *
+ * PROJECT          :       Practica 3 SSOO2
+ *
+ * PROGRAM NAME     :       User.h
+ *
+ * AUTHOR           :       Carlos y Pedro
+ *
+ * DATE CREATE      :       26/05/23
+ *
+ * PURPOSE          :       Functions to create and obtain information from shared memory
+ *
+ ********************************************************************************************/
+
 #ifndef UTILS_H
 #define UTILS_H
 
