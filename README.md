@@ -138,7 +138,7 @@ void User::decreaseBalance()
 ```
 - Disminuye el saldo del usuario en una unidad.
 
-#### **utils.cpp**
+### **utils.cpp**
 
 
 
