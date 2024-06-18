@@ -4,6 +4,13 @@
 ## **CÓDIGO Y METODOS**
 En este apartado haremos un pequeño análisis sobre cada clase y sus metodos
 
+#### **main.cpp**
+#### **Search.cpp**
+#### **Searcher.cpp**
+#### **SistemaDePago.cpp**
+#### **User.cpp**
+#### **utils.cpp**
+
 
 
 
