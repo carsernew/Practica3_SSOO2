@@ -4,7 +4,7 @@
 ## **EXPLICACIÓN DEL CÓDIGO**
 En este apartado haremos un pequeño análisis sobre todos los metodos utilizados en el código
 
-#### **main.cpp**
+### **main.cpp**
 
 ```
 void user_running(int numThreads, std::string keyword, User user, mqd_t searcher_mq)
@@ -55,7 +55,7 @@ int main()
 - Inicia los procesos de búsqueda y pago.
 - Entra en un bucle infinito para mantener el programa en ejecución.
 
-#### **Search.cpp**
+### **Search.cpp**
  ```
  Search::Search(searchRequest_t request)
  ```
@@ -102,7 +102,7 @@ int main()
  
 
 
-#### **Searcher.cpp**
+### **Searcher.cpp**
 ```
 Searcher::Searcher() 
 ```
@@ -118,8 +118,8 @@ void Searcher::receiveRequests()
 ```
 -
 
-#### **SistemaDePago.cpp**
-#### **User.cpp**
+### **SistemaDePago.cpp**
+### **User.cpp**
 
 ```
 User::User(int id, int balance, UserType type)
