@@ -8,7 +8,6 @@ En este apartado haremos un pequeño análisis sobre todos los metodos utilizado
 
 ```
 void user_running(int numThreads, std::string keyword, User user, mqd_t searcher_mq)
-
 ```
 
 - Este método simula la actividad de un usuario en el sistema.
@@ -18,7 +17,6 @@ void user_running(int numThreads, std::string keyword, User user, mqd_t searcher
 
 ```
 int user_generator(unsigned int n_users)
-
 ```
 
 - Genera usuarios aleatorios con características como balance, tipo, número de hilos y palabra clave.
@@ -27,7 +25,6 @@ int user_generator(unsigned int n_users)
 
 ```
 int running_payment_process() 
-
 ```
 
 - Crea y maneja el proceso de pago.
