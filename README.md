@@ -1,10 +1,39 @@
 # **SSOO2 TRABAJO SSOO2**
 **Realizado por PEDRO JOSÉ MEDINA SÁNCHEZ y CARLOS FERNÁNDEZ-APARICIO MARGOTÓN**
 
-## **CÓDIGO Y METODOS**
-En este apartado haremos un pequeño análisis sobre cada clase y sus metodos
+## **METODOS**
+En este apartado haremos un pequeño análisis sobre todos los metodos utilizados en el código
 
 #### **main.cpp**
+
+```
+void user_running(int numThreads, std::string keyword, User user, mqd_t searcher_mq)
+
+```
+
+- Este método simula la actividad de un usuario en el sistema.
+- Crea una cola de mensajes para el usuario y envía una solicitud de búsqueda al buscado
+- Espera una respuesta del buscador y actualiza el saldo del usuario según la respuesta recibida.
+
+
+```
+int user_generator(unsigned int n_users)
+
+```
+
+- Genera usuarios aleatorios con características como balance, tipo, número de hilos y palabra clave.
+- Inicia un thread para cada usuario utilizando user_running.
+- Lee palabras clave de un archivo llamado dictionary.txt
+
+```
+int running_payment_process() 
+
+```
+
+- Crea y maneja el proceso de pago.
+- Inicia un proceso hijo que maneja las solicitudes de pago y envía las confirmaciones de pago.
+- Utiliza una cola de mensajes para recibir solicitudes de pago.
+
 #### **Search.cpp**
 #### **Searcher.cpp**
 #### **SistemaDePago.cpp**
